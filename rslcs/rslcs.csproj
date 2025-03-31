@@ -13,19 +13,22 @@
 		<Authors>Fynn Budde</Authors>
 		<PackageProjectUrl>https://github.com/Foib/rslcs</PackageProjectUrl>
 		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/Foib/rslcs</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>result;error handling;go error;go</PackageTags>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="LICENSE.txt">
+		<None Update="LICENSE.txt">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-	</ItemGroup>
-	<ItemGroup>
 		<None Update="icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>

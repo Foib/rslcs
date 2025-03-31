@@ -8,12 +8,6 @@ A lightweight C# library that brings Go-like error handling to .NET applications
 dotnet add package rslcs
 ```
 
-Or via the NuGet Package Manager:
-
-```
-Install-Package rslcs
-```
-
 ## Features
 
 - **Explicit Error Handling**: No more hidden exceptions or try/catch blocks for expected errors
