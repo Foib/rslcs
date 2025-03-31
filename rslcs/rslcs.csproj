@@ -7,10 +7,14 @@
 		<Title>rslcs</Title>
 		<Description>Lightweight C# library for Go-like error handling</Description>
 		<Copyright>Copyright © 2025 Fynn Budde</Copyright>
+		<PackageId>rslcs</PackageId>
+		<Version>1.0.0</Version>
+		<Product>rslcs</Product>
+		<Authors>Fynn Budde</Authors>
 		<PackageProjectUrl>https://github.com/Foib/rslcs</PackageProjectUrl>
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryUrl>https://github.com/Foib/rslcs</RepositoryUrl>
-		<RepositoryType></RepositoryType>
+		<RepositoryType>git</RepositoryType>
 		<PackageTags>result;error handling;go error;go</PackageTags>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 	</PropertyGroup>
